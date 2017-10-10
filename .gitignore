@@ -1,0 +1,8 @@
+Debug/src/*.o
+Debug/src/*.d
+Debug/asm/*.o
+Debug/cnn/*.o
+Debug/cnn/*.d
+obj/*
+obj\*
+*.o
