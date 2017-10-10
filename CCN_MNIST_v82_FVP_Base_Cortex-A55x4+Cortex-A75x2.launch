@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.arm.debugger.launcher2">
+<stringAttribute key="ANDROID_ACTIVITY_NAME" value=""/>
+<stringAttribute key="ANDROID_APPLICATION" value=""/>
+<stringAttribute key="ANDROID_APP_DIR" value=""/>
+<stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
+<mapAttribute key="AverageDurationTracker">
+<mapEntry key="*Fetching Data Model" value="1297519"/>
+<mapEntry key="*FunctionLoader" value="94086217"/>
+<mapEntry key="*list global low level symbols" value="632316"/>
+<mapEntry key="*loading memory from target" value="5303160"/>
+<mapEntry key="*loading values from target" value="2794649"/>
+<mapEntry key="*updating expressions" value="8531167"/>
+<mapEntry key="*updating local_variables" value="4247977"/>
+<mapEntry key="*updating registers" value="61751549"/>
+<mapEntry key="*updating variables" value="594573"/>
+<mapEntry key="AddEventObserver" value="15144123"/>
+<mapEntry key="Evaluate" value="607234"/>
+<mapEntry key="ListRegimeWarningsCommand" value="244296"/>
+<mapEntry key="Retrieving globals list" value="11826477"/>
+<mapEntry key="areCachesAvailable" value="387009"/>
+<mapEntry key="backtrace" value="6020012"/>
+<mapEntry key="break" value="69919283"/>
+<mapEntry key="compute execution mode" value="958252"/>
+<mapEntry key="console" value="4624320"/>
+<mapEntry key="continue" value="14732970"/>
+<mapEntry key="core" value="1563897"/>
+<mapEntry key="disassemble" value="23598741"/>
+<mapEntry key="evaluate address" value="774153"/>
+<mapEntry key="get byte order" value="195543"/>
+<mapEntry key="get capabilities" value="265179"/>
+<mapEntry key="get execution addresss" value="165063"/>
+<mapEntry key="get source lines" value="242887"/>
+<mapEntry key="getValidEncodings" value="335457"/>
+<mapEntry key="initialize command help" value="25336415"/>
+<mapEntry key="interrupt" value="22791420"/>
+<mapEntry key="list breakpoint options" value="89095"/>
+<mapEntry key="list breakpoints" value="416480"/>
+<mapEntry key="list instruction sets" value="1601833"/>
+<mapEntry key="list signals" value="2030889"/>
+<mapEntry key="list translations" value="429812"/>
+<mapEntry key="list watchpoint options" value="985526"/>
+<mapEntry key="list watchpoints" value="715220"/>
+<mapEntry key="loadfile" value="33431554"/>
+<mapEntry key="reload-symbol-file" value="27747561"/>
+<mapEntry key="remove" value="16165928"/>
+<mapEntry key="run script" value="39235123"/>
+<mapEntry key="select-frame" value="1073961"/>
+<mapEntry key="set CWD" value="2831421"/>
+<mapEntry key="set breakpoint properties" value="16591820"/>
+<mapEntry key="set debug-from" value="778058"/>
+<mapEntry key="source use_model_semihosting.ds" value="10447387"/>
+<mapEntry key="start" value="28768498"/>
+<mapEntry key="step" value="33480620"/>
+<mapEntry key="stepi" value="30489937"/>
+<mapEntry key="synchronizing trace ranges" value="16022"/>
+<mapEntry key="toggleBreakpoint" value="8216799"/>
+<mapEntry key="updating MMU tables" value="13997"/>
+<mapEntry key="waitForTargetToStop" value="14915178"/>
+<mapEntry key="write expression" value="107319085"/>
+</mapAttribute>
+<intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
+<booleanAttribute key="EVENT_VIEWER_ENABLED" value="false"/>
+<stringAttribute key="EVENT_VIEWER_MAX_DEPTH" value="1Mb"/>
+<stringAttribute key="EVENT_VIEWER_MAX_DEPTH_NUMBER" value="1048576"/>
+<booleanAttribute key="EVENT_VIEWER_STM_ENABLED" value="false"/>
+<stringAttribute key="EVENT_VIEWER_STM_MAX_DEPTH" value=""/>
+<stringAttribute key="EVENT_VIEWER_STM_MAX_DEPTH_NUMBER" value="0"/>
+<intAttribute key="FILES.CONNECT_TO_GDB_SERVER.RESOURCES.COUNT" value="0"/>
+<intAttribute key="FILES.DEBUG_EXISTING_ANDROID.RESOURCES.COUNT" value="0"/>
+<listAttribute key="FILES.DEBUG_RESIDENT_ANDROID"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.0.VALUE" value=""/>
+<intAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.COUNT" value="1"/>
+<listAttribute key="FILES.DEBUG_RESIDENT_APP"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.TYPE" value="APPLICATION_ON_TARGET"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.VALUE" value=""/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.VALUE" value=""/>
+<intAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.COUNT" value="2"/>
+<listAttribute key="FILES.DOWNLOAD_AND_DEBUG"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.VALUE" value=""/>
+<intAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.COUNT" value="3"/>
+<listAttribute key="FILES.DOWNLOAD_DEBUG"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.VALUE" value=""/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.VALUE" value=""/>
+<intAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.COUNT" value="3"/>
+<intAttribute key="FILES.DOWNLOAD_DEBUG_ANDROID.RESOURCES.COUNT" value="0"/>
+<listAttribute key="FILES.ICE_DEBUG">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.VALUE" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/ArmV82_Keras_CNN_Inference.axf}"/>
+<intAttribute key="FILES.ICE_DEBUG.RESOURCES.COUNT" value="1"/>
+<listAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.0.VALUE" value=""/>
+<intAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE.RESOURCES.COUNT" value="1"/>
+<listAttribute key="FILES.ICE_DEBUG_WITH_TRACE">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.0.VALUE" value=""/>
+<intAttribute key="FILES.ICE_DEBUG_WITH_TRACE.RESOURCES.COUNT" value="1"/>
+<stringAttribute key="FILES.SELECTED_DEBUG_OPEATION" value="ICE_DEBUG"/>
+<stringAttribute key="HOST_WORKING_DIR" value="${workspace_loc}"/>
+<booleanAttribute key="HOST_WORKING_DIR_USE_DEFAULT" value="true"/>
+<listAttribute key="ITM_CHANNEL_LIST"/>
+<booleanAttribute key="KEY_COMMANDS_AFTER_CONNECT" value="true"/>
+<stringAttribute key="KEY_COMMANDS_AFTER_CONNECT_TEXT" value="add-symbol-file &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/ArmV82_Keras_CNN_Inference.axf}&quot; EL1N:0&#13;&#10;restore &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/mnist/mnist_cnn_parameter.bin}&quot; binary S:0x80100000&#13;&#10;"/>
+<intAttribute key="Messages.POST_TRIGGER_CAPTURE_SIZE.getLocalisedValue().FMTrace" value="50"/>
+<booleanAttribute key="Messages.STOP_ON_TRIGGER.getLocalisedValue().FMTrace" value="false"/>
+<intAttribute key="POST_TRIGGER_CAPTURE_SIZE" value="50"/>
+<booleanAttribute key="RSE_USE_HOSTNAME" value="true"/>
+<booleanAttribute key="STOP_ON_TRIGGER" value="false"/>
+<stringAttribute key="TCP_DISABLE_EXTENDED_MODE" value="true"/>
+<booleanAttribute key="TCP_KILL_ON_EXIT" value="false"/>
+<listAttribute key="TREE_NODE_PROPERTIES:debugger.view.ExpressionsView">
+<listEntry value="NODE CACHE VERSION 1"/>
+<listEntry value="EXPRESSION_GROUP:Expressions:VALUE:gicd:VALUE:(gicd).GICD_CTLR"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+<listEntry value="EXPRESSION_GROUP:Expressions:VALUE:gicd:VALUE:(gicd).GICD_TYPER"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Hexadecimal"/>
+</listAttribute>
+<booleanAttribute key="VFS_ENABLED" value="true"/>
+<stringAttribute key="VFS_LOCAL_DIR" value="${workspace_loc}"/>
+<stringAttribute key="VFS_REMOTE_MOUNT" value="/writeable"/>
+<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
+<listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
+<listEntry value="&lt;Next Instruction&gt;"/>
+<listEntry value=""/>
+</listAttribute>
+<listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.ranges">
+<listEntry value="100"/>
+<listEntry value=""/>
+</listAttribute>
+<listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.addresses">
+<listEntry value=""/>
+<listEntry value="0x80002c58"/>
+<listEntry value="0x000000002F000000"/>
+<listEntry value="EL3:0x27000000"/>
+<listEntry value="EL3:0x2F000000"/>
+<listEntry value="(gicd).GICD_CTLR"/>
+</listAttribute>
+<listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.ranges">
+<listEntry value=""/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+</listAttribute>
+<stringAttribute key="com.arm.debug.views.debugConsole.DebugCommandLine.History" value="bt"/>
+<listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
+<listEntry value="&lt;Next Instruction&gt;"/>
+</listAttribute>
+<listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.DisassemblyView.ranges">
+<listEntry value="100"/>
+</listAttribute>
+<stringAttribute key="config_db_activity_name" value="Debug Cortex-A55x4+Cortex-A75x2 SMP"/>
+<stringAttribute key="config_db_connection_keys" value="dtsl_config dtsl_tracecapture_option dtsl_config_script model_params config_file setup TCP_KILL_ON_EXIT TCP_DISABLE_EXTENDED_MODE"/>
+<stringAttribute key="config_db_connection_type" value="Bare Metal Debug"/>
+<stringAttribute key="config_db_platform_name" value="ARM FVP - Base_A55x4_A75x2"/>
+<stringAttribute key="config_db_project_type" value="Bare Metal Debug"/>
+<stringAttribute key="config_db_project_type_id" value="BARE_METAL"/>
+<stringAttribute key="config_db_taxonomy_id" value="/platform/armfvp/base_a55x4_a75x2"/>
+<stringAttribute key="config_file" value="CDB://cadi_config.xml"/>
+<booleanAttribute key="connectOnly" value="false"/>
+<listAttribute key="debugger.view.DisassemblyView:current">
+<listEntry value="&lt;Next Instruction&gt;"/>
+<listEntry value="100"/>
+</listAttribute>
+<listAttribute key="debugger.view.ExpressionsView">
+<listEntry value="gicd"/>
+</listAttribute>
+<mapAttribute key="debugger.view.ExpressionsView.ExpressionsData">
+<mapEntry key="0" value="NODE_TRANSFER_ELEMENT_COUNT,0;NODE_TRANSFER_ELEMENT_SIZE_IN_BYTES,32768;NODE_TYPE,VALUE;FORMATTER,com.arm.debug.views.common.outline.DefaultDataFormatter"/>
+</mapAttribute>
+<stringAttribute key="debugger.view.ExpressionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;false&#9;332&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;109&#9;-1&#9;true&#9;2&#9;true&#9;false&#9;232&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;130&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;65&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;185&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;61&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.MMUView:DebugOutlineColumnState" value="OutlineConfig1&#9;5&#9;0&#9;true&#9;false&#9;16&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;108&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;120&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;47&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;82&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.MemoryView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;page&gt;&#10;&#9;&lt;memoryView displayWidthTag=&quot;BYTE_4&quot; numberOfColumns=&quot;0&quot; mCompressedAddresses=&quot;true&quot; formatTag=&quot;Hexadecimal&quot; showTooltipTag=&quot;true&quot; autoAlign=&quot;false&quot;/&gt;&#10;&lt;/page&gt;&#10;"/>
+<listAttribute key="debugger.view.MemoryView:current">
+<listEntry value=""/>
+<listEntry value=""/>
+</listAttribute>
+<stringAttribute key="debugger.view.ModulesView:DebugOutlineColumnState" value="OutlineConfig1&#9;5&#9;0&#9;true&#9;true&#9;60&#9;-1&#9;true&#9;1&#9;true&#9;true&#9;77&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;74&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;51&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;78&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;117&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;175&#9;-1&#9;true&#9;3&#9;false&#9;true&#9;54&#9;-1&#9;true&#9;4&#9;false&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;false&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.NewRegisterView:_selectedRegisterSet" value="All registers"/>
+<mapAttribute key="debugger.view.NewRegisterView_registerSets"/>
+<stringAttribute key="debugger.view.StackView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;109&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;52&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;47&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;43&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;74&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;61&#9;-1&#9;true"/>
+<listAttribute key="debugger.view.TraceView:TRACE_EXPORT_FILTERS"/>
+<stringAttribute key="debugger.view.VariableTreeView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;197&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;236&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;156&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
+<listAttribute key="debugger.view.VariableTreeView:USER_ADDED_FILE_STATICS"/>
+<listAttribute key="debugger.view.VariableTreeView:USER_ADDED_GLOBALS"/>
+<booleanAttribute key="debugger.view.expression.DrawAsHex" value="false"/>
+<booleanAttribute key="debugger.view.register.DrawAsHex" value="false"/>
+<stringAttribute key="debugger.view.symbols.FunctionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;60&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;123&#9;-1&#9;true&#9;2&#9;false&#9;true&#9;109&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;109&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;103&#9;-1&#9;true&#9;5&#9;false&#9;true&#9;47&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;134&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;62&#9;-1&#9;true"/>
+<booleanAttribute key="debugger.view.variable.DrawAsHex" value="false"/>
+<stringAttribute key="dtsl_config" value="DtslScript"/>
+<stringAttribute key="dtsl_config_script" value="CDB://dtsl_config_script.py"/>
+<stringAttribute key="dtsl_options_file" value="default"/>
+<stringAttribute key="dtsl_tracecapture_option" value="options.traceBuffer.traceCaptureDevice"/>
+<booleanAttribute key="linuxOS" value="false"/>
+<stringAttribute key="model_params" value="-C bp.secure_memory=false -C cache_state_modelled=0 -C pctl.startup=0.0.*.*"/>
+<booleanAttribute key="runAfterConnect" value="false"/>
+<stringAttribute key="runTargetInitializationScript" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/use_model_semihosting.ds}"/>
+<mapAttribute key="scripts_view_script_links">
+<mapEntry key="C:\DS-5Workspace\PMU_AArch64\use_model_semihosting.ds" value=""/>
+<mapEntry key="C:\Git\ArmV82_Keras_CNN_Inference\use_model_semihosting.ds" value=""/>
+<mapEntry key="C:\Git\PMU_AArch64\use_model_semihosting.ds" value=""/>
+</mapAttribute>
+<listAttribute key="setup">
+<listEntry value="DS5://sw/debugger/configdb/Scripts/rtsm_launcher.py"/>
+<listEntry value="&quot;FVP_Base_Cortex-A55x4+Cortex-A75x2&quot;"/>
+</listAttribute>
+<stringAttribute key="stopAtExpression" value="*$ENTRYPOINT"/>
+<stringAttribute key="watchpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;watchpoints&gt;&#10;&lt;/watchpoints&gt;&#10;"/>
+</launchConfiguration>
