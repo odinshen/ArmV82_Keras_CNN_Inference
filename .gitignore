@@ -5,4 +5,5 @@ Debug/cnn/*.o
 Debug/cnn/*.d
 obj/*
 obj\*
-*.o
+obj/*.d
+obj/*.o
