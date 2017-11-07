@@ -114,7 +114,7 @@ __attribute__((noreturn)) void MainApp(void)
         inference_0 = 0;
         image_result = *TEST_IMAGE_RES(0);
         _mutex_acquire(&print_lock);
-        printf("\n\n---------------------------------------\n");
+        printf("\n---------------------------------------\n");
         printf("Inf selected image [%d] from CPU: %lu\n", image_result, core);
         _mutex_release(&print_lock);
         pmu_reset();
@@ -129,8 +129,13 @@ __attribute__((noreturn)) void MainApp(void)
     	else {
     		printf("[Pass]\n");
     	}
-        printf("\t\tCycle count is %llu\n\n", pmu_cycle_counter_get_count());
-//      printf("\t\tCycle_Cnt is %u\n", pmu_counter_get_event_count(3));
+        printf("\t\tCycle count is %llu\n", pmu_cycle_counter_get_count());
+        printf("\t\t\t Cnt 0 is %u\n", pmu_counter_get_event_count(0));
+        printf("\t\t\t Cnt 1 is %u\n", pmu_counter_get_event_count(1));
+        printf("\t\t\t Cnt 2 is %u\n", pmu_counter_get_event_count(2));
+        printf("\t\t\t Cnt 3 is %u\n", pmu_counter_get_event_count(3));
+        printf("\t\t\t Cnt 4 is %u\n", pmu_counter_get_event_count(4));
+        printf("\n");
         _mutex_release(&print_lock);
     }
     else {
@@ -145,7 +150,7 @@ __attribute__((noreturn)) void MainApp(void)
         	inference_1 = 0;
             image_result = *TEST_IMAGE_RES(get_image_idx);
         	_mutex_acquire(&print_lock);
-        	printf("\n\n---------------------------------------\n");
+        	printf("\n---------------------------------------\n");
         	printf("\nGet next image: %d\n", get_image_idx);
         	printf("Inf image[%d] from CPU: %lu\n", image_result, core);
         	_mutex_release(&print_lock);
@@ -161,7 +166,7 @@ __attribute__((noreturn)) void MainApp(void)
         	else {
         		printf("[Pass]\n");
         	}
-            printf("\t\tCycle count is %llu\n\n", pmu_cycle_counter_get_count());
+            printf("\t\tCycle count is %llu\n", pmu_cycle_counter_get_count());
         	_mutex_release(&print_lock);
 
       	}

@@ -11,6 +11,8 @@
 #include "mnist.h"
 #include "cnn_api_c.h"
 
+#define CHECK_VALUE 100
+#define DEBUG while(1)
 
 float relu(float value) {
     if (value < 0.0f) {
@@ -82,6 +84,7 @@ int convolution(
                                   + (stride_col                       * lay->output_channel)    // [ ][x][ ]
                                   + out_ch]                                                       // [ ][ ][x]
                 += current_biase;
+
                 if (lay->relu_activation == 1) {
                     kernel_result = ((float*)outputs)[  (stride_row * lay->output_columns * lay->output_channel)    // [x][ ][ ]
                                                       + (stride_col                       * lay->output_channel)    // [ ][x][ ]
@@ -132,7 +135,6 @@ int max_pooling(
                         }
                     }
                 }
-
 
                 ((float*)outputs)[(output_row * lay->output_columns * lay->output_channel)
                                   + (output_col * lay->output_channel)
@@ -214,23 +216,55 @@ int post_proc(
     float *outlay,
     unsigned int channel
 ) {
-    unsigned int idx, idx_max;
-    float conf, conf_max;
+    unsigned int idx, idx_max, idx_max_2nd;
+    float conf, conf_max, conf_max_2nd, average, std, stdiv;
 
 	printf("    prob [");
 
     idx_max = 0;
     conf_max = 0.0f;
+    idx_max_2nd = 11;
+    conf_max_2nd = 5;
+
+    average = 0.0f;
+    stdiv = 0.0f;
+    std = 0.0f;
+
     for( idx = 0; idx < channel; idx++ ){
-        conf = ((float*)outlay)[idx];
-    	printf(" %.0f,", conf/0x1000000);
-        if(conf_max < conf){
+        conf = ((float*)outlay)[idx] /0x1000000;
+    	printf(" %.0f,", conf);
+        average = average + conf;
+    	if(conf_max < conf){
             idx_max = idx;
             conf_max = conf;
         }
     }
 
-	printf("]\n");
+    average /= 10;
+	// Standard Deviation
+    for( idx = 0; idx < channel; idx++ ){
+        conf = ((float*)outlay)[idx] /0x1000000;
+        if (
+        	(idx != idx_max) &&
+			(conf_max_2nd > (conf_max-conf))
+		) {
+        	conf_max_2nd = conf_max-conf;
+        	idx_max_2nd =idx;
+        }
+        if (conf > average) {
+        	std = conf-average;
+        	std *= std;
+        	stdiv += std;
+        }
+    }
+    stdiv /= 10;
+	stdiv = sqrt(stdiv);
+	printf("], avg/std: %.0f/%.0f\n", average, stdiv);
+
+	if ( conf_max_2nd < 3 ) {
+		printf("        %d maybe another answer!!! \n", idx_max_2nd);
+		printf("        Try to inference [%d] & [%d] again\n", idx_max, idx_max_2nd);
+	}
 
     return idx_max;
 }

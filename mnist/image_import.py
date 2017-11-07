@@ -66,10 +66,10 @@ def main():
 
     # Assumed the image file is located on the project folder
     imgDir = getImageDir(ec)
-    image = loadImage(imgDir + '/mnist/test_8.jpg')    
+    image = loadImage(imgDir + '/mnist/test_7.jpg')    
     #--- store image ---
     adr = 0x80150000     # TESTDATA 0x80370000 to 0x80370C40 (size 0xC40)
-    adr = storeImage(ec, adr, image, 8)
+    adr = storeImage(ec, adr, image, 7)
 
 '''
     imgDir = getImageDir(ec)

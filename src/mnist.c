@@ -51,6 +51,7 @@ int mnist_cnn_eval(
         (float*)KERASLAYER0_BIASES
     );
 
+
     // keras_lay[1]
     lay.input_channel = 16;
     lay.input_rows = 24;
