@@ -5,55 +5,55 @@
 <stringAttribute key="ANDROID_APP_DIR" value=""/>
 <stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
 <mapAttribute key="AverageDurationTracker">
-<mapEntry key="*Fetching Data Model" value="4847722"/>
+<mapEntry key="*Fetching Data Model" value="3498588"/>
 <mapEntry key="*FunctionLoader" value="106264492"/>
-<mapEntry key="*list global low level symbols" value="3104195"/>
-<mapEntry key="*loading values from target" value="25048811"/>
+<mapEntry key="*list global low level symbols" value="2621722"/>
+<mapEntry key="*loading values from target" value="13880990"/>
 <mapEntry key="*updating expressions" value="366335"/>
 <mapEntry key="*updating local_variables" value="902414"/>
 <mapEntry key="*updating registers" value="166187623"/>
-<mapEntry key="*updating variables" value="2488967"/>
-<mapEntry key="AddEventObserver" value="6937915"/>
+<mapEntry key="*updating variables" value="629576"/>
+<mapEntry key="AddEventObserver" value="6899796"/>
 <mapEntry key="Evaluate" value="12132940"/>
 <mapEntry key="ListRegimeWarningsCommand" value="572535"/>
-<mapEntry key="Retrieving globals list" value="221590399"/>
+<mapEntry key="Retrieving globals list" value="64269086"/>
 <mapEntry key="areCachesAvailable" value="415515"/>
 <mapEntry key="backtrace" value="16511495"/>
-<mapEntry key="break" value="100933238"/>
-<mapEntry key="compute execution mode" value="1641909"/>
-<mapEntry key="continue" value="48438447"/>
-<mapEntry key="core" value="7923826"/>
+<mapEntry key="break" value="66263437"/>
+<mapEntry key="compute execution mode" value="1534253"/>
+<mapEntry key="continue" value="40884086"/>
+<mapEntry key="core" value="8064826"/>
 <mapEntry key="disassemble" value="100358996"/>
 <mapEntry key="evaluate address" value="635288"/>
-<mapEntry key="get capabilities" value="3717324"/>
+<mapEntry key="get capabilities" value="1922218"/>
 <mapEntry key="get cwd" value="162047"/>
-<mapEntry key="get execution addresss" value="304722"/>
-<mapEntry key="get source lines" value="364872"/>
+<mapEntry key="get execution addresss" value="265174"/>
+<mapEntry key="get source lines" value="361267"/>
 <mapEntry key="getValidEncodings" value="461836"/>
-<mapEntry key="initialize command help" value="106254045"/>
+<mapEntry key="initialize command help" value="71425025"/>
 <mapEntry key="interrupt" value="1472961"/>
-<mapEntry key="list breakpoint options" value="895599"/>
-<mapEntry key="list breakpoints" value="1221099"/>
-<mapEntry key="list instruction sets" value="9618576"/>
-<mapEntry key="list signals" value="7842006"/>
+<mapEntry key="list breakpoint options" value="349728"/>
+<mapEntry key="list breakpoints" value="874050"/>
+<mapEntry key="list instruction sets" value="4966006"/>
+<mapEntry key="list signals" value="4029561"/>
 <mapEntry key="list translations" value="1485311"/>
-<mapEntry key="list watchpoint options" value="9570541"/>
-<mapEntry key="list watchpoints" value="3041653"/>
-<mapEntry key="loadfile" value="186123829"/>
+<mapEntry key="list watchpoint options" value="4895605"/>
+<mapEntry key="list watchpoints" value="1961178"/>
+<mapEntry key="loadfile" value="124871878"/>
 <mapEntry key="remove" value="4703028"/>
-<mapEntry key="run script" value="144469876"/>
-<mapEntry key="set CWD" value="10035386"/>
-<mapEntry key="set breakpoint properties" value="53408063"/>
-<mapEntry key="set debug-from" value="2716861"/>
-<mapEntry key="source image_import.py" value="8120720772"/>
-<mapEntry key="source use_model_semihosting.ds" value="87562093"/>
-<mapEntry key="start" value="197393979"/>
+<mapEntry key="run script" value="113504478"/>
+<mapEntry key="set CWD" value="7205440"/>
+<mapEntry key="set breakpoint properties" value="35045655"/>
+<mapEntry key="set debug-from" value="1569625"/>
+<mapEntry key="source image_import.py" value="8546183258"/>
+<mapEntry key="source use_model_semihosting.ds" value="50732728"/>
+<mapEntry key="start" value="124202279"/>
 <mapEntry key="step" value="70360075"/>
 <mapEntry key="synchronizing trace ranges" value="24411"/>
 <mapEntry key="toggleBreakpoint" value="12241483"/>
 <mapEntry key="updateBreakpointLocation" value="1701135"/>
 <mapEntry key="updating MMU tables" value="34024302"/>
-<mapEntry key="waitForTargetToStop" value="40271404"/>
+<mapEntry key="waitForTargetToStop" value="27763406"/>
 </mapAttribute>
 <intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
 <booleanAttribute key="EVENT_VIEWER_ENABLED" value="false"/>
