@@ -5,50 +5,55 @@
 <stringAttribute key="ANDROID_APP_DIR" value=""/>
 <stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
 <mapAttribute key="AverageDurationTracker">
-<mapEntry key="*Fetching Data Model" value="585753"/>
-<mapEntry key="*FunctionLoader" value="57633079"/>
-<mapEntry key="*list global low level symbols" value="984705"/>
-<mapEntry key="*loading values from target" value="16404504"/>
-<mapEntry key="*updating registers" value="44375095"/>
-<mapEntry key="*updating variables" value="1133761"/>
-<mapEntry key="AddEventObserver" value="2779262"/>
-<mapEntry key="Evaluate" value="3588877"/>
+<mapEntry key="*Fetching Data Model" value="4847722"/>
+<mapEntry key="*FunctionLoader" value="106264492"/>
+<mapEntry key="*list global low level symbols" value="3104195"/>
+<mapEntry key="*loading values from target" value="25048811"/>
+<mapEntry key="*updating expressions" value="366335"/>
+<mapEntry key="*updating local_variables" value="902414"/>
+<mapEntry key="*updating registers" value="166187623"/>
+<mapEntry key="*updating variables" value="2488967"/>
+<mapEntry key="AddEventObserver" value="6937915"/>
+<mapEntry key="Evaluate" value="12132940"/>
 <mapEntry key="ListRegimeWarningsCommand" value="572535"/>
-<mapEntry key="Retrieving globals list" value="8251219"/>
-<mapEntry key="areCachesAvailable" value="235452"/>
-<mapEntry key="break" value="23495203"/>
-<mapEntry key="compute execution mode" value="388846"/>
-<mapEntry key="continue" value="210141252"/>
-<mapEntry key="core" value="14929350"/>
-<mapEntry key="disassemble" value="94874704"/>
-<mapEntry key="evaluate address" value="3752174"/>
-<mapEntry key="get capabilities" value="101945"/>
-<mapEntry key="get cwd" value="1018277"/>
-<mapEntry key="get execution addresss" value="261209"/>
-<mapEntry key="get source lines" value="504786"/>
-<mapEntry key="getValidEncodings" value="205319"/>
-<mapEntry key="initialize command help" value="23683511"/>
-<mapEntry key="interrupt" value="1189842"/>
-<mapEntry key="list breakpoint options" value="108125"/>
-<mapEntry key="list breakpoints" value="243266"/>
-<mapEntry key="list instruction sets" value="384549"/>
-<mapEntry key="list signals" value="1671581"/>
+<mapEntry key="Retrieving globals list" value="221590399"/>
+<mapEntry key="areCachesAvailable" value="415515"/>
+<mapEntry key="backtrace" value="16511495"/>
+<mapEntry key="break" value="100933238"/>
+<mapEntry key="compute execution mode" value="1641909"/>
+<mapEntry key="continue" value="48438447"/>
+<mapEntry key="core" value="7923826"/>
+<mapEntry key="disassemble" value="100358996"/>
+<mapEntry key="evaluate address" value="635288"/>
+<mapEntry key="get capabilities" value="3717324"/>
+<mapEntry key="get cwd" value="162047"/>
+<mapEntry key="get execution addresss" value="304722"/>
+<mapEntry key="get source lines" value="364872"/>
+<mapEntry key="getValidEncodings" value="461836"/>
+<mapEntry key="initialize command help" value="106254045"/>
+<mapEntry key="interrupt" value="1472961"/>
+<mapEntry key="list breakpoint options" value="895599"/>
+<mapEntry key="list breakpoints" value="1221099"/>
+<mapEntry key="list instruction sets" value="9618576"/>
+<mapEntry key="list signals" value="7842006"/>
 <mapEntry key="list translations" value="1485311"/>
-<mapEntry key="list watchpoint options" value="173286"/>
-<mapEntry key="list watchpoints" value="224060"/>
-<mapEntry key="loadfile" value="22121572"/>
-<mapEntry key="remove" value="5944560"/>
-<mapEntry key="run script" value="56601501"/>
-<mapEntry key="set CWD" value="2178511"/>
-<mapEntry key="set breakpoint properties" value="9195491"/>
-<mapEntry key="set debug-from" value="482776"/>
-<mapEntry key="source image_import.py" value="4261872148"/>
-<mapEntry key="source use_model_semihosting.ds" value="7253757"/>
-<mapEntry key="start" value="12020309"/>
-<mapEntry key="synchronizing trace ranges" value="165441"/>
-<mapEntry key="toggleBreakpoint" value="15327267"/>
+<mapEntry key="list watchpoint options" value="9570541"/>
+<mapEntry key="list watchpoints" value="3041653"/>
+<mapEntry key="loadfile" value="186123829"/>
+<mapEntry key="remove" value="4703028"/>
+<mapEntry key="run script" value="144469876"/>
+<mapEntry key="set CWD" value="10035386"/>
+<mapEntry key="set breakpoint properties" value="53408063"/>
+<mapEntry key="set debug-from" value="2716861"/>
+<mapEntry key="source image_import.py" value="8120720772"/>
+<mapEntry key="source use_model_semihosting.ds" value="87562093"/>
+<mapEntry key="start" value="197393979"/>
+<mapEntry key="step" value="70360075"/>
+<mapEntry key="synchronizing trace ranges" value="24411"/>
+<mapEntry key="toggleBreakpoint" value="12241483"/>
+<mapEntry key="updateBreakpointLocation" value="1701135"/>
 <mapEntry key="updating MMU tables" value="34024302"/>
-<mapEntry key="waitForTargetToStop" value="6423112"/>
+<mapEntry key="waitForTargetToStop" value="40271404"/>
 </mapAttribute>
 <intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
 <booleanAttribute key="EVENT_VIEWER_ENABLED" value="false"/>
@@ -64,9 +69,9 @@
 <stringAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.0.VALUE" value=""/>
 <intAttribute key="FILES.DEBUG_RESIDENT_ANDROID.RESOURCES.COUNT" value="1"/>
 <listAttribute key="FILES.DEBUG_RESIDENT_APP"/>
-<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.TYPE" value="APPLICATION_ON_TARGET"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
 <stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.0.VALUE" value=""/>
-<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.TYPE" value="APPLICATION_ON_TARGET"/>
 <stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.VALUE" value=""/>
 <intAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.COUNT" value="2"/>
 <listAttribute key="FILES.DOWNLOAD_AND_DEBUG">
@@ -136,7 +141,7 @@
 <booleanAttribute key="HOST_WORKING_DIR_USE_DEFAULT" value="true"/>
 <listAttribute key="ITM_CHANNEL_LIST"/>
 <booleanAttribute key="KEY_COMMANDS_AFTER_CONNECT" value="true"/>
-<stringAttribute key="KEY_COMMANDS_AFTER_CONNECT_TEXT" value="add-symbol-file &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/ArmV82_Keras_CNN_Inference.axf}&quot; EL1N:0&#13;&#10;restore &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/mnist/mnist_cnn_parameter.bin}&quot; binary S:0x80100000&#13;&#10;restore &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/mnist/mnist_siximage_834716.bin}&quot; binary S:0x80150000"/>
+<stringAttribute key="KEY_COMMANDS_AFTER_CONNECT_TEXT" value="add-symbol-file &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/ArmV82_Keras_CNN_Inference.axf}&quot; EL1N:0&#13;&#10;restore &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/mnist/mnist_cnn_parameter.bin}&quot; binary S:0x80100000"/>
 <intAttribute key="Messages.POST_TRIGGER_CAPTURE_SIZE.getLocalisedValue().FMTrace" value="50"/>
 <booleanAttribute key="Messages.STOP_ON_TRIGGER.getLocalisedValue().FMTrace" value="false"/>
 <intAttribute key="POST_TRIGGER_CAPTURE_SIZE" value="50"/>
@@ -147,7 +152,7 @@
 <booleanAttribute key="VFS_ENABLED" value="true"/>
 <stringAttribute key="VFS_LOCAL_DIR" value="${workspace_loc}"/>
 <stringAttribute key="VFS_REMOTE_MOUNT" value="/writeable"/>
-<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800058AC&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/cnn_api_c.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\cnn_api_c.c&quot; line=&quot;266&quot; function=&quot;post_proc&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800058AC&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/cnn_api_c.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\cnn_api_c.c&quot; line=&quot;265&quot; function=&quot;post_proc&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;1&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL1N:0x00000000800058AC&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/cnn_api_c.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\cnn_api_c.c&quot; line=&quot;265&quot; function=&quot;post_proc&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
+<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080004388&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;122&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800043C8&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;122&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;1&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL1N:0x00000000800043C8&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;122&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
 <listEntry value="&lt;Next Instruction&gt;"/>
 <listEntry value=""/>
@@ -200,10 +205,10 @@
 <listEntry value=""/>
 <listEntry value=""/>
 </listAttribute>
-<stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;64&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;59&#9;-1&#9;true&#9;3&#9;false&#9;true&#9;54&#9;-1&#9;true&#9;4&#9;false&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;false&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;121&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;175&#9;-1&#9;true&#9;3&#9;false&#9;true&#9;54&#9;-1&#9;true&#9;4&#9;false&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;false&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
 <stringAttribute key="debugger.view.NewRegisterView:_selectedRegisterSet" value="All registers"/>
 <mapAttribute key="debugger.view.NewRegisterView_registerSets"/>
-<stringAttribute key="debugger.view.StackView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;135&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;108&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;108&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;74&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;45&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;35&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;75&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;49&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.StackView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;165&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;214&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;137&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
 <listAttribute key="debugger.view.TraceView:TRACE_EXPORT_FILTERS"/>
 <stringAttribute key="debugger.view.VariableTreeView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;197&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;147&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;54&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
 <listAttribute key="debugger.view.VariableTreeView:USER_ADDED_FILE_STATICS"/>
@@ -219,16 +224,18 @@
 <booleanAttribute key="linuxOS" value="false"/>
 <stringAttribute key="model_params" value="-C bp.secure_memory=false -C cache_state_modelled=1 "/>
 <booleanAttribute key="runAfterConnect" value="false"/>
+<stringAttribute key="runScriptAfterConnect" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/mnist/image_import.py}"/>
 <stringAttribute key="runTargetInitializationScript" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/use_model_semihosting.ds}"/>
 <listAttribute key="scripts_view_expanded_nodes">
 <listEntry value="#Jython"/>
 </listAttribute>
 <mapAttribute key="scripts_view_script_links">
 <mapEntry key="C:\DS-5Workspace\PMU_AArch64\use_model_semihosting.ds" value=""/>
+<mapEntry key="C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\mnist\image_import.py" value=""/>
 <mapEntry key="C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\use_model_semihosting.ds" value=""/>
-<mapEntry key="C:\Git\ArmV82_Keras_CNN_Inference\mnist\image_import.py" value=""/>
 <mapEntry key="C:\Git\ArmV82_Keras_CNN_Inference\use_model_semihosting.ds" value=""/>
 <mapEntry key="C:\Git\PMU_AArch64\use_model_semihosting.ds" value=""/>
+<mapEntry key="C:\Program Files\ARM\FastModelsPortfolio_11.0\plugins\source\FastlineTrace\scripts\process-elf.py" value="PARAMETERS,fireworks-Cortex-A9xN-FVP.axf;VERBOSE,false"/>
 </mapAttribute>
 <listAttribute key="setup">
 <listEntry value="DS5://sw/debugger/configdb/Scripts/rtsm_launcher.py"/>
