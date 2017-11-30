@@ -1,0 +1,33 @@
+cifar
+{
+	'name': 'conv2d_1', 
+	'trainable': True, 
+	'batch_input_shape': (None, 32, 32, 3), 
+	'dtype': 'float32', 
+	'filters': 32, 
+	'kernel_size': (3, 3), 
+	'strides': (1, 1), 
+	'padding': 'same', 
+	'data_format': 'channels_last', 
+	'dilation_rate': (1, 1), 
+	'activation': 'relu', 
+	'use_bias': True, 
+	'kernel_initializer': {
+		'class_name': 'VarianceScaling', 
+		'config': {
+			'scale': 1.0, 
+			'mode': 'fan_avg', 
+			'distribution': 'uniform', 
+			'seed': None
+		}
+	}, 
+	'bias_initializer': {
+		'class_name': 'Zeros', 
+		'config': {}
+	}, 
+	'kernel_regularizer': None, 
+	'bias_regularizer': None, 
+	'activity_regularizer': None, 
+	'kernel_constraint': None, 
+	'bias_constraint': None
+}

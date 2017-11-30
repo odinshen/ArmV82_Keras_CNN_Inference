@@ -1,0 +1,33 @@
+mnist
+{
+	'name': 'conv2d_1', 
+	'trainable': True, 
+	'batch_input_shape': (None, 28, 28, 1), 
+	'dtype': 'float32', 
+	'filters': 16, 
+	'kernel_size': (5, 5), 
+	'strides': (1, 1), 
+	'padding': 'valid', 
+	'data_format': 'channels_last', 
+	'dilation_rate': (1, 1), 
+	'activation': 'relu', 
+	'use_bias': True, 
+	'kernel_initializer': {
+		'class_name': 'VarianceScaling', 
+		'config': {
+			'scale': 1.0, 
+			'mode': 'fan_avg', 
+			'distribution': 'uniform', 
+			'seed': None
+		}
+	}, 
+	'bias_initializer': {
+		'class_name': 'Zeros', 
+		'config': {}
+	}, 
+	'kernel_regularizer': None, 
+	'bias_regularizer': None, 
+	'activity_regularizer': None, 
+	'kernel_constraint': None, 
+	'bias_constraint': None
+}

@@ -7,7 +7,7 @@
 */
 #include <stdlib.h>
 #include <stdio.h>
-#include "arm_keras_cnn.h"
+#include "arm_cnn_inference.h"
 #include "mnist.h"
 #include "cnn_api_c.h"
 
@@ -75,6 +75,8 @@ int convolution(
             }
         }
     }
+
+
 
     for (stride_row = 0; stride_row < lay->output_rows; stride_row++) {
         for (stride_col = 0; stride_col < lay->output_columns; stride_col++) {
@@ -193,7 +195,7 @@ int fully_connected(
     return 0;
 }
 
-int pre_proc(
+int mnist_pre_proc(
     unsigned int *test_images,    // test_images[IMAGE_ROWS][IMAGE_COLUMNS]
     float *outputs                // output[IMAGE_ROWS][IMAGE_COLUMNS]
 ) {
@@ -201,11 +203,11 @@ int pre_proc(
     float normalized;
     unsigned int row, col;
 
-    for (row = 0; row < IMAGE_ROWS; row++) {
-        for (col = 0; col < IMAGE_COLUMNS; col++) {
-            current_input = ((unsigned int*)test_images)[row * IMAGE_COLUMNS + col];
+    for (row = 0; row < MNIST_IMAGE_ROWS; row++) {
+        for (col = 0; col < MNIST_IMAGE_COLUMNS; col++) {
+            current_input = ((unsigned int*)test_images)[row * MNIST_IMAGE_COLUMNS + col];
             normalized = (float)current_input / 255.0;
-            ((float*)outputs)[(row * IMAGE_COLUMNS + col)] = normalized;
+            ((float*)outputs)[(row * MNIST_IMAGE_COLUMNS + col)] = normalized;
         }
     }
 

@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "arm_keras_cnn.h"
+#include "arm_cnn_inference.h"
 #include "primes.h"
 #include "v8_aarch64.h"
 #include "MP_Mutexes.h"
@@ -68,7 +68,8 @@ __attribute__((noreturn)) void MainApp(void)
 {
     unsigned long core;
     unsigned int test_mode;
-	unsigned int user_cmd;
+    unsigned int test_model;
+    unsigned int user_cmd;
 	unsigned int image_result;
     unsigned int inference_0;
     unsigned int inference_1;
@@ -91,23 +92,39 @@ __attribute__((noreturn)) void MainApp(void)
 
     initPmuInterrupt();  // By core
 	test_mode = TESTMODE_AUTO;
+	test_model = TESTMODEL_MNIST;
 
     if (core == 0) {
 		user_cmd = *AUTOTESTIMG;
+        printf("[0x%x]: %x !!!!!\n", AUTOTESTIMG, user_cmd);
 		if (user_cmd == 0xFF) {
 			test_mode = TESTMODE_IMAGE;
 		}
+
+		user_cmd = *CNNSELECTING;
+        printf("[0x%x]: %x !!!!!\n", CNNSELECTING, user_cmd);
+		if (user_cmd == 0xFF) {
+			test_model = TESTMODEL_CIFAR;
+		}
+
 
 		_mutex_acquire(&print_lock);
         printf("\n\n");
         printf("Select test mode\n");
 		if (test_mode == TESTMODE_AUTO) {
-			printf("MNIST CNN auto Evaluation\n\n");
+			printf("CNN Auto Evaluation\n\n");
 		}
 		else {
-			printf("MNIST CNN Image Evaluation\n\n");
+			printf("CNN Selected Image Evaluation\n\n");
 		}
-        _mutex_release(&print_lock);
+        printf("Select test model\n");
+		if (test_model == TESTMODEL_MNIST) {
+			printf("MNIST CNN\n\n");
+		}
+		else {
+			printf("CIFAR CNN\n\n");
+		}
+		_mutex_release(&print_lock);
     }
 
     if (test_mode) {

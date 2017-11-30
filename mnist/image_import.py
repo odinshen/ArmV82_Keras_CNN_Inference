@@ -49,8 +49,9 @@ def storeImage(ec, store_adr, image, result):
     dscmd = 'memory set_typed S:0x%08x (unsigned int) %d' % (adr, pixel)
     ec.executeDSCommand(dscmd)
 
-    # Force select test mode
-    adr = 0x801FFFFC
+    # Force "selected" test mode
+#    adr = 0x801FFFFC
+    adr = 0x800FFFFC
     pixel = 0xff
     dscmd = 'memory set_typed S:0x%08x (unsigned int) %d' % (adr, pixel)
     ec.executeDSCommand(dscmd)

@@ -7,7 +7,7 @@
 */
 #include <stdlib.h>
 #include <stdio.h>
-#include "arm_keras_cnn.h"
+#include "arm_cnn_inference.h"
 #include "mnist.h"
 #include "cnn_api_c.h"
 
@@ -28,7 +28,7 @@ int mnist_cnn_eval(
     unsigned int workspace_layer5 = workspace_inout + 0x11000;
     unsigned int workspace_output = workspace_inout + 0x11300;
 
-    pre_proc(
+    mnist_pre_proc(
         test_images,
 	    (float*)workspace_inout
     );
