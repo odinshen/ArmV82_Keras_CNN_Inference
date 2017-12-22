@@ -64,6 +64,12 @@ void test_scalar_neon()
  * Returns
  *   <function does not return>
  */
+
+
+#define MEMTEST_START        ((unsigned int*) 0x80100000) // to 0x8120_0000 // len: 0x0110_0000
+
+
+
 __attribute__((noreturn)) void MainApp(void)
 {
     unsigned long core;
@@ -87,6 +93,28 @@ __attribute__((noreturn)) void MainApp(void)
     
     __atomic_add_fetch(&cpu_active_count, 1, __ATOMIC_RELAXED);
 
+/*
+    // Memory test
+    unsigned int mem_test_offset  = 0x0;
+    unsigned int mem_test_len     = 0x0;
+    unsigned int mem_test_pattern = 0x5a5aa5a5;
+    unsigned int mem_test_data = 0;
+
+    // Write pattern
+//    for (mem_test_len = 0; mem_test_len < 0x01100000; mem_test_len+=4) {
+    for (mem_test_len = 0; mem_test_len < 0x01100000; mem_test_len++) {
+    	*(MEMTEST_START + mem_test_len) = mem_test_pattern;
+    }
+
+    mem_test_len  = 0x0;
+    for (mem_test_len = 0; mem_test_len < 0x01100000; mem_test_len+=4) {
+    	mem_test_data = *(MEMTEST_START + mem_test_len);
+    	if (mem_test_data != mem_test_pattern) {
+            printf("offset [0x%x]: %x !!!!!\n", mem_test_len, mem_test_data);
+    	}
+    }
+*/
+
 
 #ifdef CNN_MODE
 
@@ -106,7 +134,6 @@ __attribute__((noreturn)) void MainApp(void)
 		if (user_cmd == 0xFF) {
 			test_model = TESTMODEL_CIFAR;
 		}
-
 
 		_mutex_acquire(&print_lock);
         printf("\n\n");

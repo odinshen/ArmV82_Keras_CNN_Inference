@@ -18,7 +18,7 @@ include host.mk
 
 APP ?= ArmV82_Keras_CNN_Inference.axf
 QUIET ?= @
-OPT_LEVEL ?= 1
+OPT_LEVEL ?= 3
 PLATFORM ?= AEM
 # PLATFORM is used to determine core number
 # and CORTEX_A73x2_CORTEX_A53x4 is compatible

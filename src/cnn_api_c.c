@@ -77,7 +77,6 @@ int convolution(
     }
 
 
-
     for (stride_row = 0; stride_row < lay->output_rows; stride_row++) {
         for (stride_col = 0; stride_col < lay->output_columns; stride_col++) {
             for (out_ch = 0; out_ch < lay->output_channel; out_ch++) {

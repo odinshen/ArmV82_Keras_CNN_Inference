@@ -240,6 +240,7 @@
 <stringAttribute key="model_params" value="-C bp.secure_memory=false -C cache_state_modelled=0 -C pctl.startup=0.0.*.*"/>
 <booleanAttribute key="runAfterConnect" value="false"/>
 <stringAttribute key="runTargetInitializationScript" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/use_model_semihosting.ds}"/>
+<listAttribute key="scripts_view_expanded_nodes"/>
 <mapAttribute key="scripts_view_script_links">
 <mapEntry key="C:\DS-5Workspace\PMU_AArch64\use_model_semihosting.ds" value=""/>
 <mapEntry key="C:\Git\ArmV82_Keras_CNN_Inference\use_model_semihosting.ds" value=""/>

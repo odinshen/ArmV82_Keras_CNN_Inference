@@ -77,7 +77,7 @@ def main():
     lay10_params = loadParams(imgDir + '/cifar-10/SaveModel/CifarModelCnnParamsCnn_v2_layer10.json')
 
     #--- store parameters ---
-    s_adr = 0x80300000
+    s_adr = 0x80100000
 
     print 'Keras_lay[0]'
     print 'biases{Array[32]}, weights{Array[3][3][3][32]}'

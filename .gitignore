@@ -17,3 +17,4 @@ cifar-10/SaveModel/CifarModelCnnParamsCnn_v2_layer08.json
 cifar-10/SaveModel/CifarModelCnnParamsCnn_v2_layer03.json
 cifar-10/SaveModel/CifarModelCnnParamsCnn_v1_layer10.json
 cifar-10/cifar-10-binary.tar.gz
+Fastline/FastlineReport/*

@@ -10,26 +10,26 @@
 
 // keras_lay[0]
 // biases{Array[16]}, weights{Array[5][5][1][16]}
-//  biases  S:0x80300000 - S:0x80300040
-//  weights S:0x80300040 - S:0x80300680
+//  biases  S:0x80100000 - S:0x80100040
+//  weights S:0x80100040 - S:0x80100680
 #define KERASLAYER0_BIASES		(MNIST_EVAL_BASE + MNIST_PARAMETER_BASE + 0x0)
 #define KERASLAYER0_WEIGHTS		(MNIST_EVAL_BASE + MNIST_PARAMETER_BASE + 0x40)
 // keras_lay[2]
 // biases{Array[32]}, weights{Array[5][5][16][32]}
-//  biases  S:0x80300680 - S:0x80300700
-//  weights S:0x80300700 - S:0x8030cf00
+//  biases  S:0x80100680 - S:0x80100700
+//  weights S:0x80100700 - S:0x8010cf00
 #define KERASLAYER2_BIASES 		(MNIST_EVAL_BASE + MNIST_PARAMETER_BASE + 0x680)
 #define KERASLAYER2_WEIGHTS 	(MNIST_EVAL_BASE + MNIST_PARAMETER_BASE + 0x700)
 // keras_lay[6]
 // biases{Array[128]}, weights{Array[512][128]}
-//  biases  S:0x8030cf00 - S:0x8030d100
-//  weights S:0x8030d100 - S:0x8034d100
+//  biases  S:0x8010cf00 - S:0x8010d100
+//  weights S:0x8010d100 - S:0x8014d100
 #define KERASLAYER6_BIASES 		(MNIST_EVAL_BASE + MNIST_PARAMETER_BASE + 0xcf00)
 #define KERASLAYER6_WEIGHTS 	(MNIST_EVAL_BASE + MNIST_PARAMETER_BASE + 0xd100)
 // keras_lay[8]
 // biases{Array[10]}, weights{Array[128][10]}
-//  biases  S:0x8034d100 - S:0x8034d128
-//  weights S:0x8034d128 - S:0x8034e528
+//  biases  S:0x8014d100 - S:0x8014d128
+//  weights S:0x8014d128 - S:0x8014e528
 #define KERASLAYER8_BIASES		(MNIST_EVAL_BASE + MNIST_PARAMETER_BASE + 0x4d100)
 #define KERASLAYER8_WEIGHTS 	(MNIST_EVAL_BASE + MNIST_PARAMETER_BASE + 0x4d128)
 

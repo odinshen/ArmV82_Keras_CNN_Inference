@@ -5,56 +5,58 @@
 <stringAttribute key="ANDROID_APP_DIR" value=""/>
 <stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
 <mapAttribute key="AverageDurationTracker">
-<mapEntry key="*Fetching Data Model" value="1355955"/>
+<mapEntry key="*Fetching Data Model" value="3630359"/>
 <mapEntry key="*FunctionLoader" value="106264492"/>
-<mapEntry key="*list global low level symbols" value="1859637"/>
-<mapEntry key="*loading values from target" value="6552934"/>
+<mapEntry key="*list global low level symbols" value="3620461"/>
+<mapEntry key="*loading memory from target" value="6024088"/>
+<mapEntry key="*loading values from target" value="1479523"/>
 <mapEntry key="*updating expressions" value="366335"/>
 <mapEntry key="*updating local_variables" value="902414"/>
 <mapEntry key="*updating registers" value="166187623"/>
-<mapEntry key="*updating variables" value="512392"/>
-<mapEntry key="AddEventObserver" value="6941671"/>
-<mapEntry key="Evaluate" value="12132940"/>
+<mapEntry key="*updating variables" value="774162"/>
+<mapEntry key="AddEventObserver" value="7812039"/>
+<mapEntry key="Evaluate" value="885952"/>
 <mapEntry key="ListRegimeWarningsCommand" value="572535"/>
-<mapEntry key="Retrieving globals list" value="21074947"/>
-<mapEntry key="areCachesAvailable" value="415515"/>
+<mapEntry key="Retrieving globals list" value="41612752"/>
+<mapEntry key="areCachesAvailable" value="1252349"/>
 <mapEntry key="backtrace" value="16511495"/>
-<mapEntry key="break" value="23089919"/>
-<mapEntry key="compute execution mode" value="578446"/>
-<mapEntry key="continue" value="21039551"/>
+<mapEntry key="break" value="3544915"/>
+<mapEntry key="compute execution mode" value="2262909"/>
+<mapEntry key="continue" value="64269163"/>
 <mapEntry key="core" value="8064826"/>
 <mapEntry key="disassemble" value="100358996"/>
 <mapEntry key="evaluate address" value="635288"/>
-<mapEntry key="get capabilities" value="578059"/>
+<mapEntry key="get byte order" value="457604"/>
+<mapEntry key="get capabilities" value="167093"/>
 <mapEntry key="get cwd" value="162047"/>
-<mapEntry key="get execution addresss" value="245101"/>
-<mapEntry key="get source lines" value="226605"/>
-<mapEntry key="getValidEncodings" value="461836"/>
-<mapEntry key="initialize command help" value="42499000"/>
-<mapEntry key="interrupt" value="1472961"/>
-<mapEntry key="list breakpoint options" value="229944"/>
-<mapEntry key="list breakpoints" value="587117"/>
-<mapEntry key="list instruction sets" value="2046412"/>
-<mapEntry key="list signals" value="1249475"/>
+<mapEntry key="get execution addresss" value="387904"/>
+<mapEntry key="get source lines" value="809779"/>
+<mapEntry key="getValidEncodings" value="816700"/>
+<mapEntry key="initialize command help" value="38011213"/>
+<mapEntry key="interrupt" value="2342730"/>
+<mapEntry key="list breakpoint options" value="459749"/>
+<mapEntry key="list breakpoints" value="727955"/>
+<mapEntry key="list instruction sets" value="512777"/>
+<mapEntry key="list signals" value="833114"/>
 <mapEntry key="list translations" value="1485311"/>
-<mapEntry key="list watchpoint options" value="1381211"/>
-<mapEntry key="list watchpoints" value="1062199"/>
-<mapEntry key="loadfile" value="53681849"/>
-<mapEntry key="remove" value="4703028"/>
-<mapEntry key="run script" value="1017106973"/>
-<mapEntry key="set CWD" value="3549445"/>
-<mapEntry key="set breakpoint properties" value="14648236"/>
-<mapEntry key="set debug-from" value="764465"/>
+<mapEntry key="list watchpoint options" value="316322"/>
+<mapEntry key="list watchpoints" value="682290"/>
+<mapEntry key="loadfile" value="28274088"/>
+<mapEntry key="remove" value="4628673"/>
+<mapEntry key="run script" value="1728105019"/>
+<mapEntry key="set CWD" value="2615177"/>
+<mapEntry key="set breakpoint properties" value="5741783"/>
+<mapEntry key="set debug-from" value="724603"/>
 <mapEntry key="source image_import.py" value="8546183258"/>
-<mapEntry key="source image_rgb_import.py" value="4816494947"/>
-<mapEntry key="source use_model_semihosting.ds" value="19163523"/>
-<mapEntry key="start" value="39161950"/>
-<mapEntry key="step" value="28666437"/>
+<mapEntry key="source image_rgb_import.py" value="5787366601"/>
+<mapEntry key="source use_model_semihosting.ds" value="7292485"/>
+<mapEntry key="start" value="11218288"/>
+<mapEntry key="step" value="80704697"/>
 <mapEntry key="synchronizing trace ranges" value="17558"/>
-<mapEntry key="toggleBreakpoint" value="12241483"/>
-<mapEntry key="updateBreakpointLocation" value="3633972"/>
+<mapEntry key="toggleBreakpoint" value="8965451"/>
+<mapEntry key="updateBreakpointLocation" value="4527193"/>
 <mapEntry key="updating MMU tables" value="34024302"/>
-<mapEntry key="waitForTargetToStop" value="11731432"/>
+<mapEntry key="waitForTargetToStop" value="7798016"/>
 </mapAttribute>
 <intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
 <booleanAttribute key="EVENT_VIEWER_ENABLED" value="false"/>
@@ -78,11 +80,11 @@
 <listAttribute key="FILES.DOWNLOAD_AND_DEBUG"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.TYPE" value="TARGET_DOWNLOAD_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
@@ -92,11 +94,11 @@
 <listAttribute key="FILES.DOWNLOAD_DEBUG"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.TYPE" value="TARGET_DOWNLOAD_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
@@ -147,7 +149,7 @@
 <booleanAttribute key="VFS_ENABLED" value="true"/>
 <stringAttribute key="VFS_LOCAL_DIR" value="${workspace_loc}"/>
 <stringAttribute key="VFS_REMOTE_MOUNT" value="/writeable"/>
-<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080004388&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;122&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800043A8&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;125&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;1&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL1N:0x00000000800043A8&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;125&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
+<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080004388&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;122&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800043D0&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;145&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;1&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL1N:0x00000000800043D0&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;145&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;108&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080004358&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;121&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;1&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL1N:0x0000000080004358&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;121&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080004350&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;109&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x000000008000434C&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;110&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;1&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL1N:0x000000008000434C&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;110&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;78&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800042D4&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;84&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;1&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL1N:0x00000000800042D4&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;84&quot; function=&quot;MainApp&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;285&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080004EEC&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;285&quot; function=&quot;main&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;1&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL1N:0x0000000080004EEC&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;285&quot; function=&quot;main&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;281&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080004EE0&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;281&quot; function=&quot;main&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;1&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL1N:0x0000000080004EE0&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/main.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\main.c&quot; line=&quot;281&quot; function=&quot;main&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
 <listEntry value="&lt;Next Instruction&gt;"/>
 <listEntry value=""/>
@@ -157,7 +159,19 @@
 <listEntry value=""/>
 </listAttribute>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.addresses">
+<listEntry value="0x81000000"/>
 <listEntry value=""/>
+<listEntry value="0x91000000"/>
+<listEntry value="0xc1000000"/>
+<listEntry value="0x80100000"/>
+<listEntry value="0x80200000"/>
+<listEntry value="0x80300000"/>
+<listEntry value="0x8111df00"/>
+<listEntry value="0x8111e000"/>
+<listEntry value="0x8111d000"/>
+<listEntry value="0x80000000"/>
+<listEntry value="0xa0000000"/>
+<listEntry value="0x90000000"/>
 <listEntry value="0x80002c58"/>
 <listEntry value="0x000000002F000000"/>
 <listEntry value="EL3:0x27000000"/>
@@ -165,7 +179,19 @@
 <listEntry value="(gicd).GICD_CTLR"/>
 </listAttribute>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.ranges">
+<listEntry value="1024"/>
 <listEntry value=""/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
+<listEntry value="1024"/>
 <listEntry value="1024"/>
 <listEntry value="1024"/>
 <listEntry value="1024"/>
@@ -195,10 +221,10 @@
 <mapAttribute key="debugger.view.ExpressionsView.ExpressionsData"/>
 <stringAttribute key="debugger.view.ExpressionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;false&#9;695&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;false&#9;232&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;54&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
 <stringAttribute key="debugger.view.MMUView:DebugOutlineColumnState" value="OutlineConfig1&#9;5&#9;0&#9;true&#9;false&#9;16&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;108&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;120&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;47&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;400&#9;-1&#9;true"/>
-<stringAttribute key="debugger.view.MemoryView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;page&gt;&#10;&#9;&lt;memoryView displayWidthTag=&quot;BYTE_4&quot; mCompressedAddresses=&quot;true&quot; formatTag=&quot;Signed Decimal&quot; showTooltipTag=&quot;true&quot; autoAlign=&quot;false&quot;/&gt;&#10;&lt;/page&gt;&#10;"/>
+<stringAttribute key="debugger.view.MemoryView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;page&gt;&#10;&#9;&lt;memoryView displayWidthTag=&quot;BYTE_4&quot; mCompressedAddresses=&quot;true&quot; formatTag=&quot;Hexadecimal&quot; showTooltipTag=&quot;true&quot; autoAlign=&quot;false&quot;/&gt;&#10;&lt;/page&gt;&#10;"/>
 <listAttribute key="debugger.view.MemoryView:current">
-<listEntry value=""/>
-<listEntry value=""/>
+<listEntry value="0x81000000"/>
+<listEntry value="1024"/>
 </listAttribute>
 <stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;121&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;175&#9;-1&#9;true&#9;3&#9;false&#9;true&#9;54&#9;-1&#9;true&#9;4&#9;false&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;false&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
 <stringAttribute key="debugger.view.NewRegisterView:_selectedRegisterSet" value="All registers"/>
@@ -217,7 +243,7 @@
 <stringAttribute key="dtsl_options_file" value="default"/>
 <stringAttribute key="dtsl_tracecapture_option" value="options.traceBuffer.traceCaptureDevice"/>
 <booleanAttribute key="linuxOS" value="false"/>
-<stringAttribute key="model_params" value="-C bp.secure_memory=false -C cache_state_modelled=1 "/>
+<stringAttribute key="model_params" value="-C bp.secure_memory=false -C cache_state_modelled=1 -C bp.dram_size=4"/>
 <booleanAttribute key="runAfterConnect" value="false"/>
 <stringAttribute key="runScriptAfterConnect" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/cifar-10/image_rgb_import.py}"/>
 <stringAttribute key="runTargetInitializationScript" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/use_model_semihosting.ds}"/>

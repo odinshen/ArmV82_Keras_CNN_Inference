@@ -1,0 +1,9 @@
+{
+  "operating-system": "none",
+  "sampling-frequency": 10000,
+  "app-name": "ArmV82_Keras_CNN_Inference.axf",
+  "app-proc-id": 100000,
+  "symbol-info-files": [
+    "ArmV82_Keras_CNN_Inference.axf.csv"
+  ]
+}

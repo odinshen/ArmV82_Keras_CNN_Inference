@@ -77,7 +77,7 @@ def main():
     lay8_params = loadParams(imgDir + 'mnist_cnn_train121_params_layer8.json')
 
     #--- store parameters ---
-    s_adr = 0x80300000
+    s_adr = 0x80100000
 
     print 'Keras_lay[0]'
     print 'biases{Array[16]}, weights{Array[5][5][1][16]}'

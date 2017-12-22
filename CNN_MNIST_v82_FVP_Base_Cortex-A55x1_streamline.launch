@@ -5,57 +5,57 @@
 <stringAttribute key="ANDROID_APP_DIR" value=""/>
 <stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
 <mapAttribute key="AverageDurationTracker">
-<mapEntry key="*Fetching Data Model" value="6086120"/>
+<mapEntry key="*Fetching Data Model" value="3431220"/>
 <mapEntry key="*FunctionLoader" value="106264492"/>
-<mapEntry key="*list global low level symbols" value="5297145"/>
+<mapEntry key="*list global low level symbols" value="4061614"/>
 <mapEntry key="*loading memory from target" value="4174949"/>
 <mapEntry key="*loading values from target" value="2326236"/>
 <mapEntry key="*updating expressions" value="366335"/>
 <mapEntry key="*updating local_variables" value="902414"/>
 <mapEntry key="*updating registers" value="166187623"/>
 <mapEntry key="*updating variables" value="507881"/>
-<mapEntry key="AddEventObserver" value="12858315"/>
+<mapEntry key="AddEventObserver" value="9048874"/>
 <mapEntry key="Evaluate" value="874030"/>
 <mapEntry key="ListRegimeWarningsCommand" value="572535"/>
 <mapEntry key="Retrieving globals list" value="13106790"/>
 <mapEntry key="areCachesAvailable" value="296454"/>
 <mapEntry key="backtrace" value="16511495"/>
 <mapEntry key="break" value="5634278"/>
-<mapEntry key="compute execution mode" value="373989"/>
-<mapEntry key="continue" value="20793347"/>
+<mapEntry key="compute execution mode" value="3317885"/>
+<mapEntry key="continue" value="23153180"/>
 <mapEntry key="core" value="9509100"/>
 <mapEntry key="disassemble" value="100358996"/>
 <mapEntry key="evaluate address" value="3847148"/>
 <mapEntry key="get byte order" value="306047"/>
-<mapEntry key="get capabilities" value="3298924"/>
+<mapEntry key="get capabilities" value="839220"/>
 <mapEntry key="get cwd" value="162047"/>
-<mapEntry key="get execution addresss" value="268700"/>
-<mapEntry key="get source lines" value="1119473"/>
+<mapEntry key="get execution addresss" value="224198"/>
+<mapEntry key="get source lines" value="579798"/>
 <mapEntry key="getValidEncodings" value="269350"/>
-<mapEntry key="initialize command help" value="132844243"/>
-<mapEntry key="interrupt" value="1195669"/>
-<mapEntry key="list breakpoint options" value="789792"/>
-<mapEntry key="list breakpoints" value="1535703"/>
-<mapEntry key="list instruction sets" value="3896782"/>
-<mapEntry key="list signals" value="15937783"/>
+<mapEntry key="initialize command help" value="47058335"/>
+<mapEntry key="interrupt" value="711143"/>
+<mapEntry key="list breakpoint options" value="790153"/>
+<mapEntry key="list breakpoints" value="618283"/>
+<mapEntry key="list instruction sets" value="1752487"/>
+<mapEntry key="list signals" value="9133970"/>
 <mapEntry key="list translations" value="1485311"/>
-<mapEntry key="list watchpoint options" value="4059265"/>
-<mapEntry key="list watchpoints" value="1555597"/>
-<mapEntry key="loadfile" value="210959056"/>
+<mapEntry key="list watchpoint options" value="4385011"/>
+<mapEntry key="list watchpoints" value="2265622"/>
+<mapEntry key="loadfile" value="147293171"/>
 <mapEntry key="remove" value="2169228"/>
-<mapEntry key="run script" value="293800949"/>
-<mapEntry key="set CWD" value="21218629"/>
+<mapEntry key="run script" value="103098788"/>
+<mapEntry key="set CWD" value="7990998"/>
 <mapEntry key="set breakpoint properties" value="6140216"/>
-<mapEntry key="set debug-from" value="1673853"/>
-<mapEntry key="source image_import.py" value="8708473056"/>
-<mapEntry key="source use_model_semihosting.ds" value="94435026"/>
-<mapEntry key="start" value="271572712"/>
+<mapEntry key="set debug-from" value="2655203"/>
+<mapEntry key="source image_import.py" value="6479708026"/>
+<mapEntry key="source use_model_semihosting.ds" value="29919879"/>
+<mapEntry key="start" value="90467170"/>
 <mapEntry key="step" value="49670583"/>
 <mapEntry key="synchronizing trace ranges" value="20340"/>
 <mapEntry key="toggleBreakpoint" value="10845484"/>
 <mapEntry key="updateBreakpointLocation" value="1672225"/>
 <mapEntry key="updating MMU tables" value="34024302"/>
-<mapEntry key="waitForTargetToStop" value="341434505"/>
+<mapEntry key="waitForTargetToStop" value="18603292"/>
 </mapAttribute>
 <intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
 <booleanAttribute key="EVENT_VIEWER_ENABLED" value="false"/>
@@ -208,7 +208,7 @@
 <stringAttribute key="dtsl_options_file" value="default"/>
 <stringAttribute key="dtsl_tracecapture_option" value="options.traceBuffer.traceCaptureDevice"/>
 <booleanAttribute key="linuxOS" value="false"/>
-<stringAttribute key="model_params" value="-C bp.secure_memory=false -C cache_state_modelled=1 "/>
+<stringAttribute key="model_params" value="-C bp.secure_memory=false -C cache_state_modelled=1 -a cluster.cpu0=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\FastlineConfig\launch-fastline.bat&quot;"/>
 <booleanAttribute key="runAfterConnect" value="false"/>
 <stringAttribute key="runScriptAfterConnect" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/mnist/image_import.py}"/>
 <stringAttribute key="runTargetInitializationScript" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/use_model_semihosting.ds}"/>
