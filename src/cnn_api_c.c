@@ -33,7 +33,8 @@ int convolution_filter(
     unsigned int stride_row,
 	unsigned int stride_col,
 	float *weights,
-    float *biases
+    float *biases,
+	char  relu_activation
 ) {
 	//	*inputs
 	//	*outputs
@@ -57,6 +58,7 @@ int convolution_filter(
     float current_input;
     float current_result;
     float kernel_result;
+    unsigned int kernel_output_addr;
 
     for (current_filter_row = 0; current_filter_row < filter_rows; current_filter_row++) {
         for (current_filter_col = 0; current_filter_col < filter_cols; current_filter_col++) {
@@ -79,6 +81,18 @@ int convolution_filter(
             }
         }
     }
+
+    for (out_ch = 0; out_ch < output_channel; out_ch++) {
+        current_biase = ((float*)biases)[out_ch];
+        kernel_output_addr = (stride_row * output_columns * output_channel) + (stride_col * output_channel) + out_ch;
+        kernel_result = ((float*)outputs)[kernel_output_addr];
+        kernel_result += current_biase;
+        if (relu_activation) {
+        	kernel_result = relu(kernel_result);
+        }
+    	((float*)outputs)[kernel_output_addr] = kernel_result;
+    }
+
     return 0;
 }
 
@@ -163,12 +177,14 @@ int convolution(
 				stride_row,
 				stride_col,
 				(float*)weights,
-				(float*)biases
+				(float*)biases,
+				lay->relu_activation
         	);
 #endif
         }
     }
 
+#ifdef CNN_CONV_1
     for (stride_row = 0; stride_row < lay->output_rows; stride_row++) {
         for (stride_col = 0; stride_col < lay->output_columns; stride_col++) {
             for (out_ch = 0; out_ch < lay->output_channel; out_ch++) {
@@ -190,6 +206,7 @@ int convolution(
             }
         }
     }
+#endif
 
     return 0;
 }

@@ -53,7 +53,7 @@
 #define CNNSELECTING ((volatile unsigned char *) (HOST_CONFIG_CNN_BASE))
 
 
-#define CNN_CONV_1     1    // Original
-//#define CNN_CONV_2     1	// API
+//#define CNN_CONV_1     1    // Original
+#define CNN_CONV_2     1	// API
 //#define CNN_CONV_3     1	// Engine
 
