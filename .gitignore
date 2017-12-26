@@ -4,9 +4,6 @@ Debug/asm/*.o
 Debug/cnn/*.o
 Debug/cnn/*.d
 obj/*
-obj\*
-obj/*.d
-obj/*.o
 Backup/ArmV82_Keras_CNN_Inference__1130.zip
 cifar-10/SaveModel/CifarModelCnnParamsCnn_v2_layer10.json
 cifar-10/SaveModel/CifarModelCnnParamsCnn_v1_layer00.json
@@ -18,3 +15,5 @@ cifar-10/SaveModel/CifarModelCnnParamsCnn_v2_layer03.json
 cifar-10/SaveModel/CifarModelCnnParamsCnn_v1_layer10.json
 cifar-10/cifar-10-binary.tar.gz
 Fastline/FastlineReport/*
+*.o
+*.o

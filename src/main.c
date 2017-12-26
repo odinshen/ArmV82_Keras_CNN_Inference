@@ -25,6 +25,7 @@
 
 #define CNN_MODE       1
 
+
 static unsigned int cpu_active_count = 0;
 static unsigned int cpu_finished_count = 0;
 
@@ -43,7 +44,6 @@ void add_scalar(uint8_t * A, uint8_t * B, uint8_t * C)
         C[i] = A[i] + B[i];
     }
 }
-
 
 
 void test_scalar_neon()
@@ -219,6 +219,7 @@ __attribute__((noreturn)) void MainApp(void)
 	printf("\n\n[CPU: %lu] End of MNIST CNN Evaluation\n\n", core);
 	_mutex_release(&print_lock);
 
+
 #else
 
     initPmuInterrupt();
@@ -258,6 +259,7 @@ __attribute__((noreturn)) void MainApp(void)
       exit(0);
     }
 }
+
 
 /*
  * int main(void)

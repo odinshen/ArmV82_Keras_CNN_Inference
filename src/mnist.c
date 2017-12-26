@@ -11,7 +11,6 @@
 #include "mnist.h"
 #include "cnn_api_c.h"
 
-
 int mnist_cnn_eval(
     unsigned int *test_images,    // test_images[IMAGE_ROWS][IMAGE_COLUMNS]
 	unsigned long idx,
@@ -50,7 +49,6 @@ int mnist_cnn_eval(
         (float*)KERASLAYER0_WEIGHTS,
         (float*)KERASLAYER0_BIASES
     );
-
 
     // keras_lay[1]
     lay.input_channel = 16;

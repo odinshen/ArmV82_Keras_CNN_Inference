@@ -35,7 +35,6 @@
 #define TESTMODEL_MNIST  0
 #define TESTMODEL_CIFAR 1
 
-
 #define TEST_IMAGE_0 (MNIST_EVAL_BASE + MNIST_TESTIMAGE_BASE + 0x0)		// (size 0xC40)   7
 #define TEST_IMAGE_1 (MNIST_EVAL_BASE + MNIST_TESTIMAGE_BASE + 0x1000)	// (size 0xC40)	  3
 #define TEST_IMAGE_2 (MNIST_EVAL_BASE + MNIST_TESTIMAGE_BASE + 0x2000)	// (size 0xC40)   4
@@ -52,4 +51,9 @@
 //#define AUTOTESTIMG ((volatile unsigned char *) (MNIST_EVAL_BASE + 0x300FFFF))
 #define AUTOTESTIMG  ((volatile unsigned char *) (HOST_CONFIG_AUTO_BASE))
 #define CNNSELECTING ((volatile unsigned char *) (HOST_CONFIG_CNN_BASE))
+
+
+#define CNN_CONV_1     1    // Original
+//#define CNN_CONV_2     1	// API
+//#define CNN_CONV_3     1	// Engine
 

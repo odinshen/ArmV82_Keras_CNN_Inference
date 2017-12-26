@@ -5,59 +5,47 @@
 <stringAttribute key="ANDROID_APP_DIR" value=""/>
 <stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
 <mapAttribute key="AverageDurationTracker">
-<mapEntry key="*Fetching Data Model" value="747029"/>
-<mapEntry key="*FunctionLoader" value="94086217"/>
-<mapEntry key="*list global low level symbols" value="417893"/>
-<mapEntry key="*loading memory from target" value="5303160"/>
-<mapEntry key="*loading values from target" value="6268993"/>
-<mapEntry key="*updating expressions" value="8531167"/>
-<mapEntry key="*updating local_variables" value="4247977"/>
-<mapEntry key="*updating registers" value="64826399"/>
-<mapEntry key="*updating variables" value="428260"/>
-<mapEntry key="AddEventObserver" value="14893254"/>
-<mapEntry key="Evaluate" value="607234"/>
-<mapEntry key="ListRegimeWarningsCommand" value="244296"/>
-<mapEntry key="Retrieving globals list" value="11392639"/>
-<mapEntry key="areCachesAvailable" value="403194"/>
-<mapEntry key="backtrace" value="6020012"/>
-<mapEntry key="break" value="69919283"/>
-<mapEntry key="compute execution mode" value="1240109"/>
-<mapEntry key="console" value="4624320"/>
-<mapEntry key="continue" value="13968226"/>
-<mapEntry key="core" value="1563897"/>
-<mapEntry key="disassemble" value="23598741"/>
-<mapEntry key="evaluate address" value="774153"/>
-<mapEntry key="get byte order" value="195543"/>
-<mapEntry key="get capabilities" value="132935"/>
-<mapEntry key="get execution addresss" value="175852"/>
-<mapEntry key="get source lines" value="929468"/>
-<mapEntry key="getValidEncodings" value="333977"/>
-<mapEntry key="initialize command help" value="26555329"/>
-<mapEntry key="interrupt" value="29945831"/>
-<mapEntry key="list breakpoint options" value="106095"/>
-<mapEntry key="list breakpoints" value="313646"/>
-<mapEntry key="list instruction sets" value="780737"/>
-<mapEntry key="list signals" value="1667020"/>
-<mapEntry key="list translations" value="429812"/>
-<mapEntry key="list watchpoint options" value="884567"/>
-<mapEntry key="list watchpoints" value="576266"/>
-<mapEntry key="loadfile" value="34243275"/>
-<mapEntry key="reload-symbol-file" value="27747561"/>
-<mapEntry key="remove" value="16165928"/>
-<mapEntry key="run script" value="31387434"/>
-<mapEntry key="select-frame" value="1073961"/>
-<mapEntry key="set CWD" value="2511272"/>
-<mapEntry key="set breakpoint properties" value="16591820"/>
-<mapEntry key="set debug-from" value="483765"/>
-<mapEntry key="source use_model_semihosting.ds" value="12828369"/>
-<mapEntry key="start" value="36918275"/>
-<mapEntry key="step" value="33480620"/>
-<mapEntry key="stepi" value="30489937"/>
-<mapEntry key="synchronizing trace ranges" value="16022"/>
-<mapEntry key="toggleBreakpoint" value="8216799"/>
-<mapEntry key="updating MMU tables" value="13997"/>
-<mapEntry key="waitForTargetToStop" value="12499654"/>
-<mapEntry key="write expression" value="107319085"/>
+<mapEntry key="*Fetching Data Model" value="2582488"/>
+<mapEntry key="*list global low level symbols" value="2558452"/>
+<mapEntry key="*loading values from target" value="1658378"/>
+<mapEntry key="*updating registers" value="51938571"/>
+<mapEntry key="*updating variables" value="497965"/>
+<mapEntry key="AddEventObserver" value="13570827"/>
+<mapEntry key="Evaluate" value="5175155"/>
+<mapEntry key="ListRegimeWarningsCommand" value="572535"/>
+<mapEntry key="Retrieving globals list" value="7059070"/>
+<mapEntry key="areCachesAvailable" value="364673"/>
+<mapEntry key="break" value="35036677"/>
+<mapEntry key="compute execution mode" value="1560596"/>
+<mapEntry key="continue" value="38232631"/>
+<mapEntry key="core" value="8011609"/>
+<mapEntry key="disassemble" value="125477220"/>
+<mapEntry key="get capabilities" value="241839"/>
+<mapEntry key="get execution addresss" value="183608"/>
+<mapEntry key="get source lines" value="342473"/>
+<mapEntry key="getValidEncodings" value="268992"/>
+<mapEntry key="initialize command help" value="50070089"/>
+<mapEntry key="interrupt" value="43372239"/>
+<mapEntry key="list breakpoint options" value="388656"/>
+<mapEntry key="list breakpoints" value="541041"/>
+<mapEntry key="list instruction sets" value="4471672"/>
+<mapEntry key="list signals" value="3773619"/>
+<mapEntry key="list translations" value="1485311"/>
+<mapEntry key="list watchpoint options" value="4513888"/>
+<mapEntry key="list watchpoints" value="1746091"/>
+<mapEntry key="loadfile" value="155574617"/>
+<mapEntry key="run script" value="119344250"/>
+<mapEntry key="set CWD" value="7853418"/>
+<mapEntry key="set breakpoint properties" value="16191582"/>
+<mapEntry key="set debug-from" value="1200728"/>
+<mapEntry key="source image_import.py" value="5039014172"/>
+<mapEntry key="source use_model_semihosting.ds" value="58840033"/>
+<mapEntry key="start" value="120481102"/>
+<mapEntry key="step" value="20641846"/>
+<mapEntry key="synchronizing trace ranges" value="212239"/>
+<mapEntry key="toggleBreakpoint" value="12845812"/>
+<mapEntry key="updating MMU tables" value="34024302"/>
+<mapEntry key="waitForTargetToStop" value="40307487"/>
 </mapAttribute>
 <intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
 <booleanAttribute key="EVENT_VIEWER_ENABLED" value="false"/>
@@ -120,7 +108,7 @@
 <stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
 <stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
 <stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
-<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.VALUE" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/ArmV82_Keras_CNN_Inference.axf}"/>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.VALUE" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/ArmV82_Keras_CNN_Inference__O1.axf}"/>
 <intAttribute key="FILES.ICE_DEBUG.RESOURCES.COUNT" value="1"/>
 <listAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE">
 <listEntry value="ON_DEMAND_LOAD"/>
@@ -145,7 +133,7 @@
 <booleanAttribute key="HOST_WORKING_DIR_USE_DEFAULT" value="true"/>
 <listAttribute key="ITM_CHANNEL_LIST"/>
 <booleanAttribute key="KEY_COMMANDS_AFTER_CONNECT" value="true"/>
-<stringAttribute key="KEY_COMMANDS_AFTER_CONNECT_TEXT" value="add-symbol-file &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/ArmV82_Keras_CNN_Inference.axf}&quot; EL1N:0&#13;&#10;restore &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/mnist/mnist_cnn_parameter.bin}&quot; binary S:0x80100000&#13;&#10;restore &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/mnist/mnist_siximage_834716.bin}&quot; binary S:0x80150000&#13;&#10;"/>
+<stringAttribute key="KEY_COMMANDS_AFTER_CONNECT_TEXT" value="add-symbol-file &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/ArmV82_Keras_CNN_Inference.axf}&quot; EL1N:0&#13;&#10;restore &quot;${workspace_loc:/ArmV82_Keras_CNN_Inference/mnist/mnist_cnn_parameter.bin}&quot; binary S:0x80100000&#13;&#10;"/>
 <intAttribute key="Messages.POST_TRIGGER_CAPTURE_SIZE.getLocalisedValue().FMTrace" value="50"/>
 <booleanAttribute key="Messages.STOP_ON_TRIGGER.getLocalisedValue().FMTrace" value="false"/>
 <intAttribute key="POST_TRIGGER_CAPTURE_SIZE" value="50"/>
@@ -153,21 +141,10 @@
 <booleanAttribute key="STOP_ON_TRIGGER" value="false"/>
 <stringAttribute key="TCP_DISABLE_EXTENDED_MODE" value="true"/>
 <booleanAttribute key="TCP_KILL_ON_EXIT" value="false"/>
-<listAttribute key="TREE_NODE_PROPERTIES:debugger.view.ExpressionsView">
-<listEntry value="NODE CACHE VERSION 1"/>
-<listEntry value="EXPRESSION_GROUP:Expressions:VALUE:gicd:VALUE:(gicd).GICD_CTLR"/>
-<listEntry value="1"/>
-<listEntry value="formatter"/>
-<listEntry value="Hexadecimal"/>
-<listEntry value="EXPRESSION_GROUP:Expressions:VALUE:gicd:VALUE:(gicd).GICD_TYPER"/>
-<listEntry value="1"/>
-<listEntry value="formatter"/>
-<listEntry value="Hexadecimal"/>
-</listAttribute>
 <booleanAttribute key="VFS_ENABLED" value="true"/>
 <stringAttribute key="VFS_LOCAL_DIR" value="${workspace_loc}"/>
 <stringAttribute key="VFS_REMOTE_MOUNT" value="/writeable"/>
-<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
+<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080005430&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/cnn_api_c.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\cnn_api_c.c&quot; line=&quot;150&quot; function=&quot;max_pooling&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080004F60&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/cnn_api_c.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\cnn_api_c.c&quot; line=&quot;150&quot; function=&quot;max_pooling&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;1&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL1N:0x0000000080005430&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/cnn_api_c.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\cnn_api_c.c&quot; line=&quot;150&quot; function=&quot;max_pooling&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080004A4C&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/cnn_api_c.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\cnn_api_c.c&quot; line=&quot;102&quot; function=&quot;convolution&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080004A4C&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/cnn_api_c.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\cnn_api_c.c&quot; line=&quot;102&quot; function=&quot;convolution&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;1&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL1N:0x0000000080004E4C&quot; debugFile=&quot;C:/Git/ArmCNN/ArmV82_Keras_CNN_Inference/src/cnn_api_c.c&quot; hostFile=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\src\cnn_api_c.c&quot; line=&quot;102&quot; function=&quot;convolution&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
 <listEntry value="&lt;Next Instruction&gt;"/>
 <listEntry value=""/>
@@ -192,68 +169,70 @@
 <listEntry value="1024"/>
 <listEntry value="1024"/>
 </listAttribute>
-<stringAttribute key="com.arm.debug.views.debugConsole.DebugCommandLine.History" value="bt"/>
 <listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
 <listEntry value="&lt;Next Instruction&gt;"/>
 </listAttribute>
 <listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.DisassemblyView.ranges">
 <listEntry value="100"/>
 </listAttribute>
-<stringAttribute key="config_db_activity_name" value="Debug Cortex-A55x4+Cortex-A75x2 SMP"/>
+<stringAttribute key="config_db_activity_name" value="Debug Cortex-A55"/>
 <stringAttribute key="config_db_connection_keys" value="dtsl_config dtsl_tracecapture_option dtsl_config_script model_params config_file setup TCP_KILL_ON_EXIT TCP_DISABLE_EXTENDED_MODE"/>
 <stringAttribute key="config_db_connection_type" value="Bare Metal Debug"/>
-<stringAttribute key="config_db_platform_name" value="ARM FVP - Base_A55x4_A75x2"/>
+<stringAttribute key="config_db_platform_name" value="ARM FVP (Installed with DS-5) - Base_A55x1"/>
 <stringAttribute key="config_db_project_type" value="Bare Metal Debug"/>
 <stringAttribute key="config_db_project_type_id" value="BARE_METAL"/>
-<stringAttribute key="config_db_taxonomy_id" value="/platform/armfvp/base_a55x4_a75x2"/>
+<stringAttribute key="config_db_taxonomy_id" value="/platform/armfvp_installedwithds_5_/base_a55x1"/>
 <stringAttribute key="config_file" value="CDB://cadi_config.xml"/>
 <booleanAttribute key="connectOnly" value="false"/>
 <listAttribute key="debugger.view.DisassemblyView:current">
 <listEntry value="&lt;Next Instruction&gt;"/>
 <listEntry value="100"/>
 </listAttribute>
-<listAttribute key="debugger.view.ExpressionsView">
-<listEntry value="gicd"/>
-</listAttribute>
 <mapAttribute key="debugger.view.ExpressionsView.ExpressionsData">
-<mapEntry key="0" value="NODE_TRANSFER_ELEMENT_COUNT,0;NODE_TRANSFER_ELEMENT_SIZE_IN_BYTES,32768;NODE_TYPE,VALUE;FORMATTER,com.arm.debug.views.common.outline.DefaultDataFormatter"/>
+<mapEntry key="0" value="NODE_TRANSFER_ELEMENT_COUNT,1;NODE_TRANSFER_ELEMENT_SIZE_IN_BYTES,1;NODE_TYPE,VALUE;FORMATTER,String (UTF-8)"/>
+<mapEntry key="1" value="NODE_TRANSFER_ELEMENT_COUNT,1;NODE_TRANSFER_ELEMENT_SIZE_IN_BYTES,8;NODE_TYPE,VALUE;FORMATTER,Hexadecimal"/>
+<mapEntry key="2" value="NODE_TRANSFER_ELEMENT_COUNT,1;NODE_TRANSFER_ELEMENT_SIZE_IN_BYTES,8;NODE_TYPE,VALUE;FORMATTER,Hexadecimal"/>
 </mapAttribute>
-<stringAttribute key="debugger.view.ExpressionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;false&#9;332&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;109&#9;-1&#9;true&#9;2&#9;true&#9;false&#9;232&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;130&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;65&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;185&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;61&#9;-1&#9;true"/>
-<stringAttribute key="debugger.view.MMUView:DebugOutlineColumnState" value="OutlineConfig1&#9;5&#9;0&#9;true&#9;false&#9;16&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;108&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;120&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;47&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;82&#9;-1&#9;true"/>
-<stringAttribute key="debugger.view.MemoryView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;page&gt;&#10;&#9;&lt;memoryView displayWidthTag=&quot;BYTE_4&quot; numberOfColumns=&quot;0&quot; mCompressedAddresses=&quot;true&quot; formatTag=&quot;Hexadecimal&quot; showTooltipTag=&quot;true&quot; autoAlign=&quot;false&quot;/&gt;&#10;&lt;/page&gt;&#10;"/>
+<stringAttribute key="debugger.view.ExpressionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;false&#9;695&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;108&#9;-1&#9;true&#9;2&#9;true&#9;false&#9;232&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;46&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;54&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;43&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;71&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;61&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.MMUView:DebugOutlineColumnState" value="OutlineConfig1&#9;5&#9;0&#9;true&#9;false&#9;16&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;108&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;120&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;47&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;400&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.MemoryView" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;page&gt;&#10;&#9;&lt;memoryView displayWidthTag=&quot;BYTE_4&quot; mCompressedAddresses=&quot;true&quot; formatTag=&quot;Signed Decimal&quot; showTooltipTag=&quot;true&quot; autoAlign=&quot;false&quot;/&gt;&#10;&lt;/page&gt;&#10;"/>
 <listAttribute key="debugger.view.MemoryView:current">
 <listEntry value=""/>
 <listEntry value=""/>
 </listAttribute>
-<stringAttribute key="debugger.view.ModulesView:DebugOutlineColumnState" value="OutlineConfig1&#9;5&#9;0&#9;true&#9;true&#9;60&#9;-1&#9;true&#9;1&#9;true&#9;true&#9;77&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;74&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;51&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;78&#9;-1&#9;true"/>
 <stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;117&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;175&#9;-1&#9;true&#9;3&#9;false&#9;true&#9;54&#9;-1&#9;true&#9;4&#9;false&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;false&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
 <stringAttribute key="debugger.view.NewRegisterView:_selectedRegisterSet" value="All registers"/>
 <mapAttribute key="debugger.view.NewRegisterView_registerSets"/>
-<stringAttribute key="debugger.view.StackView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;109&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;52&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;47&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;43&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;74&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;61&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.StackView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;135&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;108&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;108&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;74&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;45&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;35&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;75&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;49&#9;-1&#9;true"/>
 <listAttribute key="debugger.view.TraceView:TRACE_EXPORT_FILTERS"/>
 <stringAttribute key="debugger.view.VariableTreeView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;197&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;127&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;147&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;54&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;65&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;84&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;69&#9;-1&#9;true"/>
 <listAttribute key="debugger.view.VariableTreeView:USER_ADDED_FILE_STATICS"/>
 <listAttribute key="debugger.view.VariableTreeView:USER_ADDED_GLOBALS"/>
 <booleanAttribute key="debugger.view.expression.DrawAsHex" value="false"/>
 <booleanAttribute key="debugger.view.register.DrawAsHex" value="false"/>
-<stringAttribute key="debugger.view.symbols.FunctionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;60&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;123&#9;-1&#9;true&#9;2&#9;false&#9;true&#9;109&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;109&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;103&#9;-1&#9;true&#9;5&#9;false&#9;true&#9;47&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;134&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;62&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.symbols.FunctionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;0"/>
 <booleanAttribute key="debugger.view.variable.DrawAsHex" value="false"/>
 <stringAttribute key="dtsl_config" value="DtslScript"/>
 <stringAttribute key="dtsl_config_script" value="CDB://dtsl_config_script.py"/>
 <stringAttribute key="dtsl_options_file" value="default"/>
 <stringAttribute key="dtsl_tracecapture_option" value="options.traceBuffer.traceCaptureDevice"/>
 <booleanAttribute key="linuxOS" value="false"/>
-<stringAttribute key="model_params" value="-C bp.secure_memory=false -C cache_state_modelled=0 -C pctl.startup=0.0.*.*"/>
+<stringAttribute key="model_params" value="-C bp.secure_memory=false -C cache_state_modelled=1 -a cluster0.cpu0=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\ArmV82_Keras_CNN_Inference__O1.axf&quot; --plugin st=&quot;C:\Program Files\DS-5 v5.28.0\sw\models\bin\FastlineTrace.dll&quot; -C TRACE.st.config=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\Fastline\FastlineConfig\CA55-system-config.json&quot; -C TRACE.st.counters-config-file=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\Fastline\FastlineConfig\CA55-counter-config.json&quot; -C TRACE.st.output-directory=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\Fastline\FastlineReport&quot; -C TRACE.st.apc-capture=CA55_Optimization_O1_CPI3 --cpi-file=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\cpi_file.txt&quot;"/>
 <booleanAttribute key="runAfterConnect" value="false"/>
+<stringAttribute key="runScriptAfterConnect" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/mnist/image_import.py}"/>
 <stringAttribute key="runTargetInitializationScript" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/use_model_semihosting.ds}"/>
+<listAttribute key="scripts_view_expanded_nodes"/>
 <mapAttribute key="scripts_view_script_links">
 <mapEntry key="C:\DS-5Workspace\PMU_AArch64\use_model_semihosting.ds" value=""/>
+<mapEntry key="C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\mnist\image_import.py" value=""/>
+<mapEntry key="C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\use_model_semihosting.ds" value=""/>
+<mapEntry key="C:\Git\ArmV82_Keras_CNN_Inference\mnist\image_import.py" value=""/>
 <mapEntry key="C:\Git\ArmV82_Keras_CNN_Inference\use_model_semihosting.ds" value=""/>
 <mapEntry key="C:\Git\PMU_AArch64\use_model_semihosting.ds" value=""/>
 </mapAttribute>
 <listAttribute key="setup">
 <listEntry value="DS5://sw/debugger/configdb/Scripts/rtsm_launcher.py"/>
-<listEntry value="&quot;FVP_Base_Cortex-A55x4+Cortex-A75x2&quot;"/>
+<listEntry value="&quot;FVP_Base_Cortex-A55x1&quot;"/>
 </listAttribute>
 <stringAttribute key="stopAtExpression" value="*$ENTRYPOINT"/>
 <stringAttribute key="watchpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;watchpoints&gt;&#10;&lt;/watchpoints&gt;&#10;"/>
