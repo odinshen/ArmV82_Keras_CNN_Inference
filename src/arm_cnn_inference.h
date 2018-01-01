@@ -55,5 +55,5 @@
 
 //#define CNN_CONV_1     1    // Original
 #define CNN_CONV_2     1	// API
-//#define CNN_CONV_3     1	// Engine
-
+//#define CNN_CONV_3     1	// API w/ static register
+//#define CNN_CONV_4     1	// API w/ Engine

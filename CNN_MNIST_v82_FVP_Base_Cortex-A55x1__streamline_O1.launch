@@ -5,47 +5,47 @@
 <stringAttribute key="ANDROID_APP_DIR" value=""/>
 <stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
 <mapAttribute key="AverageDurationTracker">
-<mapEntry key="*Fetching Data Model" value="184006"/>
-<mapEntry key="*list global low level symbols" value="367546"/>
+<mapEntry key="*Fetching Data Model" value="8178201"/>
+<mapEntry key="*list global low level symbols" value="3393544"/>
 <mapEntry key="*loading values from target" value="1658378"/>
 <mapEntry key="*updating registers" value="51938571"/>
 <mapEntry key="*updating variables" value="497965"/>
-<mapEntry key="AddEventObserver" value="3529628"/>
+<mapEntry key="AddEventObserver" value="8824621"/>
 <mapEntry key="Evaluate" value="5175155"/>
 <mapEntry key="ListRegimeWarningsCommand" value="572535"/>
 <mapEntry key="Retrieving globals list" value="7059070"/>
-<mapEntry key="areCachesAvailable" value="236987"/>
+<mapEntry key="areCachesAvailable" value="697693"/>
 <mapEntry key="break" value="9398738"/>
-<mapEntry key="compute execution mode" value="168682"/>
-<mapEntry key="continue" value="13317352"/>
+<mapEntry key="compute execution mode" value="2037973"/>
+<mapEntry key="continue" value="104499505"/>
 <mapEntry key="disassemble" value="125477220"/>
-<mapEntry key="get capabilities" value="105081"/>
-<mapEntry key="get execution addresss" value="228153"/>
-<mapEntry key="get source lines" value="367274"/>
-<mapEntry key="getValidEncodings" value="198493"/>
-<mapEntry key="initialize command help" value="22380095"/>
-<mapEntry key="interrupt" value="461991"/>
-<mapEntry key="list breakpoint options" value="86838"/>
-<mapEntry key="list breakpoints" value="182238"/>
-<mapEntry key="list instruction sets" value="175233"/>
-<mapEntry key="list signals" value="248805"/>
+<mapEntry key="get capabilities" value="703500"/>
+<mapEntry key="get execution addresss" value="491127"/>
+<mapEntry key="get source lines" value="992790"/>
+<mapEntry key="getValidEncodings" value="954408"/>
+<mapEntry key="initialize command help" value="28300675"/>
+<mapEntry key="interrupt" value="436456"/>
+<mapEntry key="list breakpoint options" value="1036862"/>
+<mapEntry key="list breakpoints" value="741096"/>
+<mapEntry key="list instruction sets" value="1509918"/>
+<mapEntry key="list signals" value="7942488"/>
 <mapEntry key="list translations" value="1485311"/>
-<mapEntry key="list watchpoint options" value="133231"/>
-<mapEntry key="list watchpoints" value="157650"/>
-<mapEntry key="loadfile" value="18665855"/>
+<mapEntry key="list watchpoint options" value="9608032"/>
+<mapEntry key="list watchpoints" value="935292"/>
+<mapEntry key="loadfile" value="100806025"/>
 <mapEntry key="remove" value="13535849"/>
-<mapEntry key="run script" value="34690852"/>
-<mapEntry key="set CWD" value="1337169"/>
+<mapEntry key="run script" value="88101186"/>
+<mapEntry key="set CWD" value="4666853"/>
 <mapEntry key="set breakpoint properties" value="9433328"/>
-<mapEntry key="set debug-from" value="449078"/>
-<mapEntry key="source image_import.py" value="3505369031"/>
-<mapEntry key="source use_model_semihosting.ds" value="8823509"/>
-<mapEntry key="start" value="10921873"/>
+<mapEntry key="set debug-from" value="808342"/>
+<mapEntry key="source image_import.py" value="4582034496"/>
+<mapEntry key="source use_model_semihosting.ds" value="24787150"/>
+<mapEntry key="start" value="84732568"/>
 <mapEntry key="step" value="23188466"/>
 <mapEntry key="synchronizing trace ranges" value="67666"/>
 <mapEntry key="toggleBreakpoint" value="15552272"/>
 <mapEntry key="updating MMU tables" value="34024302"/>
-<mapEntry key="waitForTargetToStop" value="5495960"/>
+<mapEntry key="waitForTargetToStop" value="13575445"/>
 </mapAttribute>
 <intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
 <booleanAttribute key="EVENT_VIEWER_ENABLED" value="false"/>
@@ -108,7 +108,7 @@
 <stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="true"/>
 <stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
 <stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
-<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.VALUE" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/ArmV82_Keras_CNN_Inference.axf}"/>
+<stringAttribute key="FILES.ICE_DEBUG.RESOURCES.0.VALUE" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/ArmV82_Keras_CNN_Inference__O1.axf}"/>
 <intAttribute key="FILES.ICE_DEBUG.RESOURCES.COUNT" value="1"/>
 <listAttribute key="FILES.ICE_DEBUG_WITH_ETB_TRACE">
 <listEntry value="ON_DEMAND_LOAD"/>
@@ -217,7 +217,7 @@
 <stringAttribute key="dtsl_options_file" value="default"/>
 <stringAttribute key="dtsl_tracecapture_option" value="options.traceBuffer.traceCaptureDevice"/>
 <booleanAttribute key="linuxOS" value="false"/>
-<stringAttribute key="model_params" value="-C bp.secure_memory=false -C cache_state_modelled=1 -a cluster0.cpu0=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\ArmV82_Keras_CNN_Inference.axf&quot; --plugin st=&quot;C:\Program Files\DS-5 v5.28.0\sw\models\bin\FastlineTrace.dll&quot; -C TRACE.st.config=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\Fastline\FastlineConfig\CA55-system-config.json&quot; -C TRACE.st.counters-config-file=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\Fastline\FastlineConfig\CA55-counter-config.json&quot; -C TRACE.st.output-directory=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\Fastline\FastlineReport&quot; -C TRACE.st.apc-capture=CA55_MNIST_O3 --cpi-file=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\cpi_file.txt&quot;"/>
+<stringAttribute key="model_params" value="-C bp.secure_memory=false -C cache_state_modelled=1 -a cluster0.cpu0=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\ArmV82_Keras_CNN_Inference__O1.axf&quot; --plugin st=&quot;C:\Program Files\DS-5 v5.28.0\sw\models\bin\FastlineTrace.dll&quot; -C TRACE.st.config=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\Fastline\FastlineConfig\CA55-system-config.json&quot; -C TRACE.st.counters-config-file=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\Fastline\FastlineConfig\CA55-counter-config.json&quot; -C TRACE.st.output-directory=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\Fastline\FastlineReport&quot; -C TRACE.st.apc-capture=CA55_MNIST_O1 --cpi-file=&quot;C:\Git\ArmCNN\ArmV82_Keras_CNN_Inference\cpi_file.txt&quot;"/>
 <booleanAttribute key="runAfterConnect" value="false"/>
 <stringAttribute key="runScriptAfterConnect" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/mnist/image_import.py}"/>
 <stringAttribute key="runTargetInitializationScript" value="${workspace_loc:/ArmV82_Keras_CNN_Inference/use_model_semihosting.ds}"/>
